@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MainToolBar">
+
+        <attr name="isShowCenter" format="boolean" />
+        <attr name="isShowRight" format="boolean" />
+        <attr name="right_layout" format="reference" />
+        <attr name="center_layout" format="reference" />
+        <attr name="main_background" format="color" />
+        <attr name="is_padding_top" format="boolean" />
+        <attr name="is_center_full" format="boolean" />
+        <attr name="text_size" format="dimension" />
+        <attr name="padding_left" format="dimension" />
+    </declare-styleable>
+
+</resources>

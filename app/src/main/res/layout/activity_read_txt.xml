@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!--<include layout="@layout/top_main_include" />-->
+
+    <yc.com.base.MainToolBar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isShowCenter="true"
+        app:main_background="@color/main_color" />
+
+    <ScrollView
+        android:id="@id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/tv_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/rw_spacing_size_16"
+                android:lineSpacingExtra="@dimen/rw_spacing_size_5"
+                android:textSize="@dimen/rw_text_size_16" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/rw_spacing_size_16"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/tv_last"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_btn_next"
+                    android:padding="@dimen/rw_spacing_size_10"
+                    android:text="上一章"
+                    android:textColor="@color/_ffffff" />
+
+                <TextView
+                    android:id="@id/tv_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/rw_spacing_size_16"
+                    android:background="@drawable/shape_btn_next"
+                    android:padding="@dimen/rw_spacing_size_10"
+                    android:text="下一章"
+                    android:textColor="@color/_ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="#fff8f8f8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="22.0dip"
+            android:text="取消"
+            android:textColor="#ff5677ee"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@id/tx_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:paddingBottom="10.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:paddingTop="10.0dip"
+            android:text="@string/timepicker_finish"
+            android:textColor="#ff5677ee"
+            android:textSize="15.0sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:orientation="horizontal"
+            android:paddingBottom="5.0dip"
+            android:paddingTop="5.0dip">
+
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+
+            <FrameLayout
+                android:layout_width="110.0dip"
+                android:layout_height="wrap_content">
+
+                <yc.com.chat.constellation.datapicker.LoopView
+                    android:id="@id/loop_hour"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40.0dip"
+                    android:text="@string/timepicker_hour"
+                    android:textColor="#ffb3b3b3" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="110.0dip"
+                android:layout_height="wrap_content">
+
+                <yc.com.chat.constellation.datapicker.LoopView
+                    android:id="@id/loop_min"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="15.0dip"
+                    android:text="@string/timepicker_min"
+                    android:textColor="#ffb3b3b3" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="15.0dip"
+            android:background="#ffa5a5a5" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="15.0dip"
+            android:background="#ffa5a5a5" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#ffe2e2e2" />
+</LinearLayout>

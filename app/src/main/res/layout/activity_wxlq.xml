@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="45.0dip"-->
+        <!--android:background="@color/_3d3c3c">-->
+
+        <!--<RelativeLayout-->
+        <!--android:id="@id/rl_back"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="fill_parent">-->
+
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_marginLeft="@dimen/rw_spacing_size_16"-->
+        <!--android:layout_marginRight="@dimen/rw_spacing_size_15"-->
+        <!--android:background="@mipmap/back" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="@dimen/rw_spacing_size_13"-->
+        <!--android:layout_toRightOf="@id/rl_back"-->
+        <!--android:text="零钱"-->
+        <!--android:textColor="@color/_ffffff"-->
+        <!--android:textSize="17.0sp" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginRight="@dimen/rw_spacing_size_16"-->
+        <!--android:text="零钱明细"-->
+        <!--android:textColor="@color/_ffffff"-->
+        <!--android:textSize="@dimen/rw_text_size_14" />-->
+        <!--</RelativeLayout>-->
+
+        <yc.com.base.MainToolBar
+            android:id="@+id/mainToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:isShowRight="true"
+            app:main_background="@color/_3d3c3c"
+            app:right_layout="@layout/top_right_view" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/rw_spacing_size_30"
+            android:background="@mipmap/amg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/rw_spacing_size_13"
+            android:text="我的零钱"
+            android:textColor="@color/_181818"
+            android:textSize="@dimen/rw_text_size_19" />
+
+        <TextView
+            android:id="@id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/rw_spacing_size_13"
+            android:text="¥555.00"
+            android:textColor="@color/_181818"
+            android:textSize="@dimen/rw_text_size_34" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_marginLeft="@dimen/rw_spacing_size_14"
+            android:layout_marginRight="@dimen/rw_spacing_size_14"
+            android:layout_marginTop="@dimen/rw_spacing_size_40"
+            android:background="@drawable/shape_btn_wx_cz"
+            android:gravity="center"
+            android:text="充值"
+            android:textColor="@color/_ffffff"
+            android:textSize="@dimen/rw_text_size_17" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_marginLeft="@dimen/rw_spacing_size_14"
+            android:layout_marginRight="@dimen/rw_spacing_size_14"
+            android:layout_marginTop="@dimen/rw_spacing_size_14"
+            android:background="@drawable/shape_btn_wx_tx"
+            android:gravity="center"
+            android:text="提现"
+            android:textColor="@color/_181818"
+            android:textSize="@dimen/rw_text_size_17" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/rw_spacing_size_14"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/wechat_qb_b3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="零钱理财，让零钱安稳赚收益"
+                android:textColor="@color/_486aac"
+                android:textSize="@dimen/rw_text_size_14" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/rw_spacing_size_12"
+        android:text="本服务由财付通提供"
+        android:textColor="@color/_a6a6a6"
+        android:textSize="@dimen/rw_text_size_12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/rw_spacing_size_9"
+        android:text="常见问题"
+        android:textColor="@color/_5c7099"
+        android:textSize="@dimen/rw_text_size_12" />
+</RelativeLayout>

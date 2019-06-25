@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/_f46060" />
+
+    <yc.com.chat.index.widget.MyTextView
+        android:id="@id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_margin="@dimen/rw_spacing_size_10"
+        android:background="@null"
+        android:editable="false"
+        android:lineSpacingExtra="@dimen/rw_spacing_size_5"
+        android:text="**********请点击查看*************"
+        android:textColor="@color/_666666"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/rw_text_size_15" />
+
+    <TextView
+        android:id="@id/tv_look"
+        android:layout_width="80.0dip"
+        android:layout_height="30.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_content"
+        android:gravity="center"
+        android:text="查看"
+        android:textColor="@color/main_color"
+        android:textSize="@dimen/rw_text_size_13" />
+</RelativeLayout>

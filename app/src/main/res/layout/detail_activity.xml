@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/_ffffff"
+    android:orientation="vertical">
+
+    <yc.com.base.MainToolBar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isShowCenter="true"
+        app:main_background="@color/blue_3cc3e0" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/detail_back" />
+
+            <TextView
+                android:id="@id/detail_tv1"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/rw_spacing_size_40"
+                android:background="#fff5f5f5"
+                android:gravity="center"
+                android:textColor="@color/_333333"
+                android:textSize="@dimen/rw_text_size_14" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rw_spacing_size_12"
+                android:layout_marginTop="@dimen/rw_spacing_size_16"
+                android:gravity="center_vertical">
+
+                <View
+                    android:layout_width="2.0dip"
+                    android:layout_height="10.0dip"
+                    android:background="@color/_3bc2df" />
+
+                <TextView
+                    android:id="@id/detail_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/rw_spacing_size_12"
+                    android:textColor="@color/_333333"
+                    android:textSize="@dimen/rw_text_size_14" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rw_spacing_size_12"
+                android:layout_marginTop="@dimen/rw_spacing_size_12"
+                android:gravity="center_vertical">
+
+                <View
+                    android:layout_width="2.0dip"
+                    android:layout_height="10.0dip"
+                    android:background="@color/_3bc2df" />
+
+                <TextView
+                    android:id="@id/detail_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/rw_spacing_size_12"
+                    android:textColor="@color/_333333"
+                    android:textSize="@dimen/rw_text_size_14" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rw_spacing_size_12"
+                android:layout_marginTop="@dimen/rw_spacing_size_12"
+                android:gravity="center_vertical">
+
+                <View
+                    android:layout_width="2.0dip"
+                    android:layout_height="10.0dip"
+                    android:background="@color/_3bc2df" />
+
+                <TextView
+                    android:id="@id/detail_tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/rw_spacing_size_12"
+                    android:textColor="@color/_333333"
+                    android:textSize="@dimen/rw_text_size_14" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rw_spacing_size_26"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/tab_tv1"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:textColor="@color/_333333"
+                    android:textSize="@dimen/rw_text_size_14" />
+
+                <TextView
+                    android:id="@id/tab_tv2"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:textColor="@color/_333333"
+                    android:textSize="@dimen/rw_text_size_14" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rw_spacing_size_26"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/tab_tv3"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:textColor="@color/_333333"
+                    android:textSize="@dimen/rw_text_size_14" />
+
+                <TextView
+                    android:id="@id/tab_tv4"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:textColor="@color/_333333"
+                    android:textSize="@dimen/rw_text_size_14" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/rw_spacing_size_12"
+                android:background="#fff5f5f5" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rw_spacing_size_12"
+                android:layout_marginTop="@dimen/rw_spacing_size_12"
+                android:gravity="center_vertical">
+
+                <View
+                    android:layout_width="2.0dip"
+                    android:layout_height="10.0dip"
+                    android:background="@color/_3bc2df" />
+
+                <TextView
+                    android:id="@id/detail_tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/rw_spacing_size_12"
+                    android:text="谈情必读："
+                    android:textColor="@color/_333333"
+                    android:textSize="@dimen/rw_text_size_14" />
+            </TableRow>
+
+            <TextView
+                android:id="@id/detail_tv6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/rw_spacing_size_20"
+                android:layout_marginLeft="@dimen/rw_spacing_size_12"
+                android:layout_marginRight="@dimen/rw_spacing_size_12"
+                android:lineSpacingExtra="5.0dip"
+                android:textColor="@color/_333333"
+                android:textSize="@dimen/rw_spacing_size_15" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

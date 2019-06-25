@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/_f0f0f0"
+    android:orientation="vertical">
+
+    <!--<include layout="@layout/top_include" />-->
+
+    <yc.com.base.MainToolBar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:main_background="@color/_3d3c3c" />
+
+    <EditText
+        android:id="@id/et_money"
+        style="@style/edittext_type"
+        android:layout_marginTop="@dimen/rw_spacing_size_12"
+        android:hint="账户余额（元）"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@id/tv_make"
+        style="@style/btn_type"
+        android:text="生成预览" />
+</LinearLayout>

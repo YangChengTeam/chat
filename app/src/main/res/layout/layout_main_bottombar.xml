@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/t56dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/ll_index_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center">
+
+        <yc.com.chat.base.widget.MainItemView
+            android:id="@+id/mainItem_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:normal_icon="@mipmap/text_false"
+            app:normal_titleColor="@color/_cccccc"
+            app:select_icon="@mipmap/text_true"
+            app:select_titleColor="@color/main_color"
+            app:title="@string/index" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_chat_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center">
+
+        <yc.com.chat.base.widget.MainItemView
+            android:id="@+id/mainItem_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:normal_icon="@mipmap/pic_false"
+            app:normal_titleColor="@color/_cccccc"
+            app:select_icon="@mipmap/pic_true"
+            app:select_titleColor="@color/main_color"
+            app:title="@string/chat_combat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tool_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center">
+
+        <yc.com.chat.base.widget.MainItemView
+            android:id="@+id/mainItem_tool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:normal_icon="@mipmap/more_false"
+            app:normal_titleColor="@color/_cccccc"
+            app:select_icon="@mipmap/more_true"
+            app:select_titleColor="@color/main_color"
+            app:title="@string/more_tool" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_constellation_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center">
+
+        <yc.com.chat.base.widget.MainItemView
+            android:id="@+id/mainItem_constellation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:normal_icon="@mipmap/conslatiaon_false"
+            app:normal_titleColor="@color/_cccccc"
+            app:select_icon="@mipmap/conslation_true"
+            app:select_titleColor="@color/main_color"
+            app:title="@string/constellation_pair" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/_ffffff">
+
+    <TextView
+        android:id="@id/tv_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/rw_spacing_size_5"
+        android:layout_marginLeft="@dimen/rw_spacing_size_24"
+        android:layout_marginRight="@dimen/rw_spacing_size_24"
+        android:layout_marginTop="@dimen/rw_spacing_size_16"
+        android:lineSpacingExtra="@dimen/rw_spacing_size_5"
+        android:text="***********"
+        android:textColor="@color/_666666"
+        android:textSize="@dimen/rw_text_size_15" />
+
+    <EditText
+        android:id="@id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginBottom="@dimen/rw_spacing_size_16"
+        android:layout_marginLeft="@dimen/rw_spacing_size_24"
+        android:layout_marginRight="@dimen/rw_spacing_size_24"
+        android:layout_marginTop="@dimen/rw_spacing_size_16"
+        android:background="@null"
+        android:editable="false"
+        android:lineSpacingExtra="@dimen/rw_spacing_size_5"
+        android:text="**********请点击查看*************"
+        android:textColor="@color/_666666"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/rw_text_size_15"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/tv_look"
+        android:layout_width="80.0dip"
+        android:layout_height="30.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_content"
+        android:gravity="center"
+        android:text="查看"
+        android:textColor="@color/main_color"
+        android:textSize="@dimen/rw_text_size_13" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_below="@id/tv_look"
+        android:background="@color/_ebebeb" />
+</RelativeLayout>

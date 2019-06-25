@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300.0dip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fillet_type_pay"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rw_spacing_size_5">
+
+            <RelativeLayout
+                android:id="@id/rl_close"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:layout_alignParentRight="true">
+
+                <ImageView
+                    android:id="@id/shut_close"
+                    android:layout_width="15.0dip"
+                    android:layout_height="15.0dip"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/back_black_finish" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/rw_spacing_size_5"
+                android:text="长按对话复制"
+                android:textColor="@color/main_color" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@id/tv_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/rw_spacing_size_16"
+            android:layout_marginLeft="@dimen/rw_spacing_size_24"
+            android:layout_marginRight="@dimen/rw_spacing_size_24"
+            android:layout_marginTop="@dimen/rw_spacing_size_16"
+            android:lineSpacingExtra="@dimen/rw_spacing_size_5"
+            android:text="***********"
+            android:textColor="@color/_666666"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/rw_text_size_15" />
+    </LinearLayout>
+</ScrollView>

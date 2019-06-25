@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="constella_list">
+        <item>白羊座 3.21-4.19</item>
+        <item>金牛座 4.20-5.20</item>
+        <item>双子座 5.21-6.21</item>
+        <item>巨蟹座 6.22-7.22</item>
+        <item>狮子座 7.23-8.22</item>
+        <item>处女座 8.23-9.22</item>
+        <item>天秤座 9.23-10.23</item>
+        <item>天蝎座 10.24-11.22</item>
+        <item>射手座 11.23-12.21</item>
+        <item>摩羯座 12.22-1.19</item>
+        <item>水瓶座 1.20-2.18</item>
+        <item>双鱼座 2.19-3.20</item>
+    </string-array>
+    <string-array name="head_name">
+        <item>猫咪|狗狗|狼|熊猫|更多</item>
+        <item>红唇|另类|超拽|更多</item>
+        <item>凉|可爱阿狸|更多</item>
+        <item>东京食尸鬼|海贼王|更多</item>
+        <item>2PM|艾薇儿|AKB48|更多</item>
+        <item>兄弟|帅气男生|更多</item>
+        <item>霸气御姐|闺蜜|更多</item>
+        <item>情侣头像|更多</item>
+        <item>天天酷跑|魔兽世界|更多</item>
+        <item>疯狂动物城|我是歌手|更多</item>
+    </string-array>
+    <string-array name="pic_name">
+        <item>丢东西|打斗|挑衅|更多</item>
+        <item>恶搞|电竞五五开|更多</item>
+        <item>张学友|教皇|更多</item>
+        <item>emoji表情|亲亲表情包|更多</item>
+        <item>专嗑瓜子白展堂|吴亦凡freestyle|更多</item>
+        <item>喜欢你表情包|妻奴仓鼠|更多</item>
+        <item>上吊系列|仓鼠|更多</item>
+    </string-array>
+    <string-array name="pnw_date_time_range">
+        <item>今天</item>
+        <item>明天</item>
+        <item>后天</item>
+    </string-array>
+</resources>

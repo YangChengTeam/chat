@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/rw_spacing_size_15">
+
+    <ImageView
+        android:id="@id/iv_more_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/hpic1" />
+
+    <TextView
+        android:id="@id/tv_more_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6.0dip"
+        android:text="专属时钟"
+        android:textSize="12.0sp" />
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/_f0f0f0"
+    android:orientation="vertical">
+
+    <!--<include layout="@layout/top_include" />-->
+
+    <yc.com.base.MainToolBar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:main_background="@color/_3d3c3c" />
+
+    <RelativeLayout
+        android:id="@id/rl_pay_time"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/rw_spacing_size_46"
+        android:layout_marginTop="@dimen/rw_spacing_size_12"
+        android:background="@color/_ffffff">
+
+        <TextView
+            style="@style/text_left"
+            android:text="交易时间" />
+
+        <ImageView
+            android:id="@id/iv2"
+            style="@style/img_right" />
+
+        <TextView
+            android:id="@id/tv_pay_time"
+            style="@style/text_right"
+            android:layout_toLeftOf="@id/iv2"
+            android:text="2018-08-01 12:30" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/_ebebeb" />
+
+    <RelativeLayout
+        android:id="@id/rl_pay_bank"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/rw_spacing_size_46"
+        android:background="@color/_ffffff">
+
+        <TextView
+            style="@style/text_left"
+            android:text="选择银行卡" />
+
+        <ImageView
+            android:id="@id/iv"
+            style="@style/img_right" />
+
+        <TextView
+            android:id="@id/tv_bank"
+            style="@style/text_right"
+            android:layout_toLeftOf="@id/iv"
+            android:text="中国银行" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/_ebebeb" />
+
+    <EditText
+        android:id="@id/et_num"
+        style="@style/edittext_type"
+        android:hint="银行卡尾号（后四位数）"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@id/et_money"
+        style="@style/edittext_type"
+        android:layout_marginTop="@dimen/rw_spacing_size_12"
+        android:hint="提现金额（元）"
+        android:inputType="numberDecimal" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/_ebebeb" />
+
+    <EditText
+        android:id="@id/et_pay_service"
+        style="@style/edittext_type"
+        android:hint="提现手续费（默认0.1元）"
+        android:inputType="numberDecimal" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/_ebebeb" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"
+        android:background="@color/_ffffff">
+
+        <TextView
+            style="@style/text_left"
+            android:text="提现手续费" />
+
+        <ImageView
+            android:id="@id/iv_turn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/rw_spacing_size_14"
+            android:background="@mipmap/ipay_ui_radio_group_on" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/tv_make"
+        style="@style/btn_type"
+        android:text="生成预览" />
+</LinearLayout>

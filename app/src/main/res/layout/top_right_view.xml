@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rl_history"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_marginRight="@dimen/t5dp"
+    android:background="?attr/selectableItemBackground"
+    android:padding="@dimen/t5dp">
+
+    <TextView
+        android:id="@+id/tv_right_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/history_order"
+        android:textColor="@color/_ffffff" />
+</RelativeLayout>

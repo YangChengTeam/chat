@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/rw_spacing_size_16"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/tv_back"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="转账详情"
+            android:textColor="#ff020202"
+            android:textSize="@dimen/rw_text_size_17" />
+
+        <TextView
+            android:id="@id/finish_tv"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/rw_spacing_size_16"
+            android:layout_weight="1.0"
+            android:gravity="right"
+            android:text="完成"
+            android:textColor="#ff138fe9"
+            android:textSize="@dimen/rw_text_size_15" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="#fff4f4f4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/rw_spacing_size_20"
+        android:background="@mipmap/alipay" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/rw_spacing_size_15"
+        android:gravity="center"
+        android:text="支付完成"
+        android:textColor="#ff138fe9"
+        android:textSize="@dimen/rw_text_size_17" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/rw_spacing_size_8"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="小军"
+            android:textColor="#ff868686"
+            android:textColorHint="#ff868686"
+            android:textSize="@dimen/rw_text_size_13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已收到你的转账"
+            android:textColor="#ff868686"
+            android:textSize="@dimen/rw_text_size_13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/rw_spacing_size_26"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="50"
+            android:textColor="#ff303030"
+            android:textColorHint="#ff303030"
+            android:textSize="@dimen/rw_text_size_25" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=".00元"
+            android:textColor="#ff303030"
+            android:textSize="@dimen/rw_text_size_25" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/rw_spacing_size_32"
+        android:background="#fff5f5f9"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rw_spacing_size_18">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="经常转账ta？"
+                android:textColor="#ff868686"
+                android:textSize="@dimen/rw_text_size_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="定时提醒"
+                android:textColor="#ff138fe9"
+                android:textSize="@dimen/rw_text_size_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="更方便哦"
+                android:textColor="#ff868686"
+                android:textSize="@dimen/rw_text_size_12" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rw_spacing_size_26"
+            android:background="@mipmap/huiyuanzhuanxiang" />
+    </LinearLayout>
+</LinearLayout>

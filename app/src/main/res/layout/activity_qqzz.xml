@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="72.0dip"
+        android:background="@color/_39b9fe"
+        android:paddingTop="@dimen/status_bar_height">
+
+        <LinearLayout
+            android:id="@id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/rw_spacing_size_12"
+                android:layout_marginRight="@dimen/rw_spacing_size_1"
+                android:background="@mipmap/qq_head_back3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/rw_spacing_size_16"
+                android:text="返回"
+                android:textColor="@color/_ffffff"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="转账详情"
+                android:textColor="@color/_ffffff"
+                android:textSize="17.0sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/rw_spacing_size_6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="转账记录"
+                android:textColor="@color/_ffffff"
+                android:textSize="15.0sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="84.0dip"
+        android:background="@mipmap/ic_qqzz_ok" />
+
+    <TextView
+        android:id="@id/tv_pay_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/rw_spacing_size_14"
+        android:text="收款成功"
+        android:textColor="@color/_010100"
+        android:textSize="@dimen/rw_text_size_19" />
+
+    <TextView
+        android:id="@id/tv_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/rw_spacing_size_10"
+        android:text="¥555.00"
+        android:textColor="@color/_010100"
+        android:textSize="@dimen/rw_text_size_30" />
+
+    <TextView
+        android:id="@id/tv_pay_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/rw_spacing_size_3"
+        android:text="已转入你的余额"
+        android:textColor="@color/_6b6b6b"
+        android:textSize="@dimen/rw_text_size_14" />
+
+    <TextView
+        android:id="@id/tv_qq_ck"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_marginLeft="@dimen/rw_spacing_size_14"
+        android:layout_marginRight="@dimen/rw_spacing_size_14"
+        android:layout_marginTop="@dimen/rw_spacing_size_38"
+        android:background="@drawable/shape_btn_qq_ckye"
+        android:gravity="center"
+        android:text="查看余额"
+        android:textColor="@color/_ffffff"
+        android:textSize="@dimen/rw_text_size_17" />
+
+    <TextView
+        android:id="@id/tv_qq_tx"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_marginLeft="@dimen/rw_spacing_size_14"
+        android:layout_marginRight="@dimen/rw_spacing_size_14"
+        android:layout_marginTop="@dimen/rw_spacing_size_20"
+        android:background="@drawable/shape_btn_qq_tx"
+        android:gravity="center"
+        android:text="提现到银行卡"
+        android:textColor="@color/_1fbaf3"
+        android:textSize="@dimen/rw_text_size_17" />
+</LinearLayout>

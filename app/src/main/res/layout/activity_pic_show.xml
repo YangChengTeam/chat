@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_main_include" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/tv_pic_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/rw_spacing_size_10"
+                android:layout_marginRight="@dimen/rw_spacing_size_10"
+                android:layout_marginTop="@dimen/rw_spacing_size_16"
+                android:gravity="center"
+                android:text="301期：网上撩妹怎么聊？老司来给你带带路"
+                android:textColor="@color/_070707" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rw_spacing_size_10"
+                android:layout_marginTop="@dimen/rw_spacing_size_10"
+                android:text="目的:提高聊天技巧与情商让你抱得美人归"
+                android:textSize="@dimen/rw_text_size_12" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_marginTop="@dimen/rw_spacing_size_16"
+                android:background="@color/_f46060" />
+
+            <ImageView
+                android:id="@id/iv_pic"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="@dimen/rw_spacing_size_20"
+                android:layout_marginLeft="@dimen/rw_spacing_size_10"
+                android:layout_marginRight="@dimen/rw_spacing_size_10"
+                android:layout_marginTop="@dimen/rw_spacing_size_16"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

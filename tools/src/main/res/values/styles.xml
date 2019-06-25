@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- shapeDialog style-->
+
+    <!-- shapeDialog style-->
+
+    <style name="TickerTextAppearance">
+        <item name="android:textColor">@color/f0</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="SpinKitView">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
+    <style name="SpinKitView.CubeGrid">
+        <item name="SpinKit_Style">CubeGrid</item>
+    </style>
+
+</resources>

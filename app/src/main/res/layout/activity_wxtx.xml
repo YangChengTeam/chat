@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/_ededed"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="45.0dip"-->
+    <!--android:background="@color/_3d3c3c">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginLeft="@dimen/rw_spacing_size_16"-->
+    <!--android:layout_toRightOf="@id/rl_back"-->
+    <!--android:text="提现详情"-->
+    <!--android:textColor="@color/_ffffff"-->
+    <!--android:textSize="17.0sp" />-->
+    <!--</RelativeLayout>-->
+
+
+    <yc.com.base.MainToolBar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:main_background="@color/_3d3c3c"
+        app:padding_left="@dimen/rw_spacing_size_10" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/rw_spacing_size_44"
+        android:background="@mipmap/wechat_transfer_receiving" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/rw_spacing_size_40"
+        android:text="提现申请已提交"
+        android:textColor="@color/_2e2e2e"
+        android:textSize="@dimen/rw_text_size_19" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/rw_spacing_size_48"
+        android:background="@color/_ffffff"
+        android:orientation="vertical"
+        android:padding="@dimen/rw_spacing_size_16">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预计到账时间"
+                android:textColor="@color/_9b9b9b"
+                android:textSize="@dimen/rw_text_size_14" />
+
+            <TextView
+                android:id="@id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="2018-8-1 12:30:30"
+                android:textColor="@color/_2e2e2e"
+                android:textSize="@dimen/rw_text_size_14" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rw_spacing_size_16">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="银行卡"
+                android:textColor="@color/_9b9b9b"
+                android:textSize="@dimen/rw_text_size_14" />
+
+            <TextView
+                android:id="@id/tv_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="中国银行 尾号5555"
+                android:textColor="@color/_2e2e2e"
+                android:textSize="@dimen/rw_text_size_14" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rw_spacing_size_16">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="提现金额"
+                android:textColor="@color/_9b9b9b"
+                android:textSize="@dimen/rw_text_size_14" />
+
+            <TextView
+                android:id="@id/tv_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="¥555.00"
+                android:textColor="@color/_2e2e2e"
+                android:textSize="@dimen/rw_text_size_14" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/rl_pay_service"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rw_spacing_size_16">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手续费"
+                android:textColor="@color/_9b9b9b"
+                android:textSize="@dimen/rw_text_size_14" />
+
+            <TextView
+                android:id="@id/tv_pay_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="¥0.10"
+                android:textColor="@color/_2e2e2e"
+                android:textSize="@dimen/rw_text_size_14" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/tv_back"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_marginLeft="@dimen/rw_spacing_size_14"
+        android:layout_marginRight="@dimen/rw_spacing_size_14"
+        android:layout_marginTop="@dimen/rw_spacing_size_40"
+        android:background="@drawable/shape_btn_wx_txxq"
+        android:gravity="center"
+        android:text="完成"
+        android:textColor="@color/_ffffff"
+        android:textSize="@dimen/rw_text_size_17" />
+</LinearLayout>

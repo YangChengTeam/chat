@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="default_image_background">#ffe0e0e0</item>
+    <item type="drawable" name="eeeeee">#ffeeeeee</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="progress_bar_bg">#80ffffff</item>
+    <item type="drawable" name="title_bg_1">#ffee4848</item>
+    <item type="drawable" name="white">#ffffffff</item>
+</resources>

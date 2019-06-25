@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/_272526"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="45.0dip"-->
+            <!--android:background="@color/_201e1f"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@id/rl_back"-->
+                <!--android:layout_width="60.0dip"-->
+                <!--android:layout_height="fill_parent">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerInParent="true"-->
+                    <!--android:background="@mipmap/back_white" />-->
+            <!--</RelativeLayout>-->
+
+            <!--<TextView-->
+                <!--android:id="@id/tv_name"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:text="动物"-->
+                <!--android:textColor="@color/_ffffff"-->
+                <!--android:textSize="@dimen/rw_text_size_16" />-->
+        <!--</RelativeLayout>-->
+
+        <yc.com.base.MainToolBar
+            android:id="@+id/mainToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:isShowCenter="true"
+            app:main_background="@color/_201e1f" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@id/viewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="320.0dip"
+            android:layout_marginTop="32.0dip" />
+
+        <TextView
+            android:id="@id/tv_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32.0dip"
+            android:text="1/222"
+            android:textColor="@color/_d9d9d9"
+            android:textSize="20.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/ll_down"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="#fffe2a57"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/down" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:text="下载到手机"
+            android:textColor="@color/_d9d9d9" />
+    </LinearLayout>
+</LinearLayout>

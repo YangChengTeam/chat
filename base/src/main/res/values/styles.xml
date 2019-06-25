@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LoadingProgressDialogStyle" parent="android:style/Theme.Dialog">
+        <!-- 是否有标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--背景颜色及透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+
+    <style name="share_anim">
+        <item name="android:windowEnterAnimation">@anim/tup</item>
+        <item name="android:windowExitAnimation">@anim/tdown</item>
+    </style>
+
+    <!--Toolbar的Theme的设置，都是针对popup的设置-->
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light">
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuTheme</item><!--设置弹出位置的主题-->
+        <item name="android:paddingRight">-5dp</item>
+    </style>
+
+    <!--Toolbar弹出popup主题的设置-->
+    <style name="OverflowMenuTheme" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item><!--这个属性设置为false，就能使得popup在Toolbar的下面显示-->
+    </style>
+
+    <style name="toolbarStyle">
+        <item name="android:textSize">@dimen/t16sp</item>
+    </style>
+
+</resources>

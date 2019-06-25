@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/t10dp"
+    android:layout_marginRight="@dimen/t10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@id/name1"
+        style="@style/LoveContentStyle"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="搭讪开场白" />
+</LinearLayout>

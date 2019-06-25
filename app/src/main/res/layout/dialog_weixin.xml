@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/fillet_type_pay" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rw_spacing_size_16">
+            <RelativeLayout android:id="@id/rl_close" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentRight="true">
+                <ImageView android:id="@id/shut_close" android:background="@mipmap/back_black_finish" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0sp" android:id="@id/tv_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rw_spacing_size_20" android:text="添加老师微信，一键解锁本软件所有功能及搜索功能，进高级学员群！" android:layout_toLeftOf="@id/rl_close" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_skip" android:padding="@dimen/rw_spacing_size_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/rw_spacing_size_10">
+                <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:gravity="right" android:id="@id/tv_weixin_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="客服微信号: " android:layout_weight="1.0" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:id="@id/tv_weixin_num" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="byyls_" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+            </LinearLayout>
+            <View android:background="@color/_f46060" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textColor="@color/_f46060" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rw_spacing_size_20" android:text="复制并打开微信" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:id="@id/tv_weixin_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="添加老师微信，面对女生不再腼腆，成为一名优秀的社交达人，免费赠送4000最新话术。" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

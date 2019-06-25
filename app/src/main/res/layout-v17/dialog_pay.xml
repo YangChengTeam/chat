@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/fillet_type_pay" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/pay_top_type" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/shut_close" android:padding="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/back_white_finish" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/imageView4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:text="确认订单" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/_fe2a57" android:id="@id/tv_money" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="199.0" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/_fe2a57" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="元" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:id="@id/tv_strikethrough" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="(原价388)" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rw_spacing_size_10" android:layout_marginTop="24.0dip" android:layout_marginRight="@dimen/rw_spacing_size_10" android:layout_marginBottom="10.0dip" android:text="一键解锁万条话术，因为收费低廉被竞争对手恶意投诉！出现风险提示请忽略！" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/alipay_layout" android:background="@drawable/corner_alipay_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="35.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="35.0dip" android:layout_marginBottom="16.0dip">
+            <ImageView android:id="@id/imageView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" app:srcCompat="@mipmap/alipays" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="支付宝支付" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/wxpay_layout" android:background="@drawable/corner_wxpay_btn" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="35.0dip" android:layout_marginRight="35.0dip" android:layout_marginBottom="16.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" app:srcCompat="@mipmap/wxpays" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 微信支付  " />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

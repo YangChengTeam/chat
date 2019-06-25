@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/_393a3f" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <RelativeLayout android:id="@id/rl_back" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:background="@mipmap/qq_head_back3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rw_spacing_size_16" android:layout_marginRight="@dimen/rw_spacing_size_15" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="17.0sp" android:textColor="@color/_fcfcfc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="雪雪" android:layout_toRightOf="@id/rl_back" android:layout_centerVertical="true" />
+        <ImageView android:background="@mipmap/wechat_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/rw_spacing_size_16" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:background="@color/_f4f4f4" android:layout_width="fill_parent" android:layout_height="47.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:background="@mipmap/wechat_input_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rw_spacing_size_12" />
+        <EditText android:theme="@style/MyEdittext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rw_spacing_size_8" android:layout_marginRight="@dimen/rw_spacing_size_8" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:background="@mipmap/wechat_input_emoticon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/rw_spacing_size_14" />
+        <ImageView android:layout_gravity="center_vertical" android:background="@mipmap/wechat_input_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/rw_spacing_size_14" />
+    </LinearLayout>
+</LinearLayout>

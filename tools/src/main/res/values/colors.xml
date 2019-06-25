@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="yellow">#e6ff00</color>
+    <color name="red">#ff0006</color>
+    <color name="hot_pink">#FD4C5B</color><!-- Acfun主题色 -->
+    <color name="blue">#3F51B5</color>
+
+    <color name="mi_green">#52BA97</color>
+
+    <color name="f0">#f0f0f0</color>
+    <color name="e">#EEEEEE</color>
+    <color name="c">#CCCCCC</color>
+    <color name="_8c">#8c8c8c</color>
+    <color name="a5">#A5A5A5</color>
+
+    <color name="brown">#7a583e</color>
+    <color name="brown2">#b19282</color>
+
+    <color name="transparent">#00000000</color><!-- 透明色 -->
+    <!-- 半透明 -->
+
+    <color name="shadow25">#25808080</color>
+
+    <color name="triangle">#aa72d572</color>
+    <color name="circle">#aa738ffe</color>
+    <color name="rect">#aae84e40</color>
+
+
+    <color name="green">#008000</color>
+
+    <!-- 象牙色 -->
+    <!--亮黄色 -->
+    <!--黄色 -->
+    <!--雪白色 -->
+    <!--花白色 -->
+    <!--柠檬绸色 -->
+    <!--米绸色 -->
+    <!--海贝色 -->
+    <!--淡紫红 -->
+    <!--番木色 -->
+    <!--白杏色 -->
+    <!--浅玫瑰色 -->
+    <!--桔黄色 -->
+    <!--鹿皮色 -->
+
+    <!--纳瓦白 -->
+    <!--桃色 -->
+    <!--金色 -->
+    <!--粉红色 -->
+    <!--亮粉红色 -->
+    <!--橙色 -->
+    <!--亮肉色 -->
+    <!--暗桔黄色 -->
+    <!--珊瑚色 -->
+    <!--热粉红色 -->
+    <!--西红柿色 -->
+    <!--红橙色 -->
+    <!--深粉红色 -->
+    <!--紫红色 -->
+    <!--红紫色 -->
+    <!--红色 -->
+    <!--老花色 -->
+    <!--亮金黄色 -->
+    <!--亚麻色 -->
+    <!--古董白 -->
+    <!--鲜肉色 -->
+    <!--幽灵白 -->
+
+    <!--薄荷色 -->
+    <!--烟白色 -->
+    <!--米色 -->
+    <!--浅黄色 -->
+    <!--沙褐色 -->
+    <!--天蓝色 -->
+    <!--蜜色 -->
+    <!--艾利斯兰 -->
+    <!--黄褐色 -->
+    <!--亮珊瑚色 -->
+    <!--苍麒麟色 -->
+    <!--紫罗兰色 -->
+    <!--暗肉色 -->
+    <!--淡紫色 -->
+    <!--亮青色 -->
+    <!--实木色 -->
+    <!--洋李色 -->
+    <!--淡灰色 -->
+    <!--暗深红色 -->
+    <!--苍紫罗兰色-->
+    <!--金麒麟色 -->
+    <!--淡紫色 -->
+    <!--蓟色 -->
+    <!--亮灰色 -->
+    <!--亮灰色 -->
+    <!--茶色 -->
+    <!--巧可力色 -->
+    <!--秘鲁色 -->
+    <!--印第安红 -->
+    <!--中紫罗兰色 -->
+    <!--银色 -->
+    <!--暗黄褐色 -->
+    <!--褐玫瑰红 -->
+    <!--中粉紫色 -->
+    <!--暗金黄色 -->
+    <!--火砖色 -->
+    <!--粉蓝色 -->
+    <!--亮钢兰色-->
+    <!--苍宝石绿 -->
+    <!--黄绿色 -->
+    <!--亮蓝色 -->
+    <!--褐色 -->
+    <!--赭色 -->
+    <!--暗紫色 -->
+    <!--苍绿色 -->
+    <!--暗紫罗兰色 -->
+    <!--中紫色 -->
+    <!--亮绿色 -->
+    <!--暗海兰色-->
+    <!--重褐色 -->
+    <!--暗洋红 -->
+    <!--暗红色 -->
+    <!--紫罗兰蓝色 -->
+    <!--亮天蓝色 -->
+    <!--天蓝色 -->
+    <color name="gray">#808080</color><!--灰色 -->
+    <!--橄榄色 -->
+    <!--紫色 -->
+    <!--粟色 -->
+    <!--碧绿色 -->
+    <!--黄绿色 -->
+    <!--草绿色 -->
+    <!--中暗蓝色-->
+    <!--亮蓝灰 -->
+    <!--亮蓝灰 -->
+    <!--灰石色 -->
+    <!--灰石色 -->
+    <!--深绿褐色 -->
+    <color name="slateblue">#6A5ACD</color><!--石蓝色 -->
+    <!--暗灰色 -->
+    <!--暗灰色 -->
+    <!--中绿色-->
+    <!--菊兰色 -->
+    <!--军兰色 -->
+    <!--暗橄榄绿 -->
+    <!--靛青色 -->
+    <!--中绿宝石-->
+    <!--暗灰蓝色 -->
+    <!--钢兰色 -->
+    <color name="royalblue">#4169E1</color><!--皇家蓝 -->
+    <!--青绿色 -->
+    <!--中海蓝 -->
+    <!--橙绿色 -->
+    <!--暗瓦灰色 -->
+    <!--海绿色 -->
+    <!--森林绿 -->
+    <!--亮海蓝色 -->
+    <!--闪兰色 -->
+    <!--中灰兰色 -->
+    <!--浅绿色 -->
+    <!--青色 -->
+    <!--春绿色 -->
+    <!--酸橙色 -->
+    <!--中春绿色 -->
+    <!--暗宝石绿 -->
+    <!--深天蓝色 -->
+    <!--暗青色 -->
+    <color name="teal">#008080</color><!--水鸭色 -->
+    <!--暗绿色 -->
+    <!--蓝色 -->
+    <!--中兰色 -->
+    <!--暗蓝色 -->
+    <!--海军色 -->
+
+    <color name="round_corner_progress_bar_background_default">#5f5f5f</color>
+    <color name="round_corner_progress_bar_progress_default">#7f7f7f</color>
+    <color name="round_corner_progress_bar_secondary_progress_default">@android:color/transparent
+    </color>
+
+    <color name="custom_progress_orange_progress">#ffff8800</color>
+
+    <color name="colorBackground">#FF4081</color>
+    <color name="colorText">#FFFFFF</color>
+
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="abc_input_method_navigation_guard">@android:color/black</color>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="accent_material_dark">@color/material_deep_teal_200</color>
+    <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="add_book_out_2">#ff717171</color>
+    <color name="alpha_50">#80aea591</color>
+    <color name="alpha_80">#cc676154</color>
+    <color name="alpha_gray">#b3111111</color>
+    <color name="answer_info_seting_pb_tx">#ff2a2d30</color>
+    <color name="background_floating_material_dark">#ff424242</color>
+    <color name="background_floating_material_light">#ffeeeeee</color>
+    <color name="background_material_dark">#ff303030</color>
+    <color name="background_material_light">#ffeeeeee</color>
+    <color name="bgColor_overlay">#60000000</color>
+
+    <color name="book_name_tx_color">#ff333333</color>
+    <color name="book_size_text_color">#ff666666</color>
+    <color name="bottom_tab_choose">#ffee4949</color>
+    <color name="bottom_tab_unchoose">#ffaaaaaa</color>
+    <color name="bottom_tx_color">#ff333333</color>
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80000000</color>
+    <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
+    <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
+    <color name="bright_foreground_material_dark">@android:color/white</color>
+    <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+    <color name="c_F1433F">#fff1433f</color>
+    <color name="c_d63B38">#ffd63b38</color>
+    <color name="c_fed11f">#fffed11f</color>
+    <color name="color_3">#ff333333</color>
+    <color name="color_50ffffff">#50ffffff</color>
+    <color name="color_6">#ff666666</color>
+    <color name="color_676154">#ff676154</color>
+    <color name="color_75ffffff">#75ffffff</color>
+    <color name="color_7f000000">#7f000000</color>
+    <color name="color_8">#ff888888</color>
+    <color name="color_80ffffff">#80ffffff</color>
+    <color name="color_9">#ff999999</color>
+    <color name="color_99000000">#99000000</color>
+    <color name="color_99e3333">#ff993333</color>
+    <color name="color_EE4545">#ffee4545</color>
+    <color name="color_a">#ffaaaaaa</color>
+    <color name="color_c">#ffcccccc</color>
+    <color name="color_c_60">#99cccccc</color>
+    <color name="color_cb">#ffcbcbcb</color>
+    <color name="color_cbcbcb">#ffcbcbcb</color>
+    <color name="color_d84040">#ffd84040</color>
+    <color name="color_d8d8d8">#ffd8d8d8</color>
+    <color name="color_d8d8d8_60">#99d8d8d8</color>
+    <color name="color_e1">#ffe1e1e1</color>
+    <color name="color_e5">#ffe5e5e5</color>
+    <color name="color_e7">#ffe7e7e7</color>
+    <color name="color_e72d36">#ffe72d36</color>
+    <color name="color_ed">#ffededed</color>
+    <color name="color_ededed">#ffededed</color>
+    <color name="color_ee4545">#ffee4545</color>
+    <color name="color_ee7878">#ffee7878</color>
+    <color name="color_f2f2f2">#fff2f2f2</color>
+    <color name="color_f4f4">#fff4f4f4</color>
+    <color name="color_f5f5f5">#fff5f5f5</color>
+    <color name="color_f7">#fff7f7f7</color>
+    <color name="color_fbc00b">#fffbc00b</color>
+    <color name="color_fe5">#ffffe5e5</color>
+    <color name="color_fef0f0">#fffef0f0</color>
+    <color name="color_ff5451">#ffff5451</color>
+    <color name="color_ffc80b">#ffffc80b</color>
+    <color name="color_gold">#ffffea00</color>
+    <color name="color_white">#ffffffff</color>
+    <color name="color_white_90">#e6ffffff</color>
+    <color name="color_yellow">#fffdd15b</color>
+    <color name="color_yellow_2">#ffffd200</color>
+    <color name="context_bg">#fff7f7f7</color>
+    <color name="deep_tips_color">#f2000000</color>
+    <color name="dialog_alpha_bg">#00000000</color>
+    <color name="dialog_black_bg">#7f000000</color>
+    <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
+    <color name="dim_foreground_disabled_material_light">#80323232</color>
+    <color name="dim_foreground_material_dark">#ffbebebe</color>
+    <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="error_color">#ffdd2c00</color>
+    <color name="fab_stroke_end_inner_color">#0a000000</color>
+    <color name="fab_stroke_end_outer_color">#0f000000</color>
+    <color name="fab_stroke_top_inner_color">#1affffff</color>
+    <color name="fab_stroke_top_outer_color">#2effffff</color>
+    <color name="highlighted_text_material_dark">#6680cbc4</color>
+    <color name="highlighted_text_material_light">#66009688</color>
+    <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
+    <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
+    <color name="line_color">#ffe8e8e8</color>
+    <color name="link_text_material_dark">@color/material_deep_teal_200</color>
+    <color name="link_text_material_light">@color/material_deep_teal_500</color>
+    <color name="login_type">#ff4d4d4d</color>
+    <color name="material_blue_grey_800">#ff37474f</color>
+    <color name="material_blue_grey_900">#ff263238</color>
+    <color name="material_blue_grey_950">#ff21272b</color>
+    <color name="material_deep_teal_200">#ff80cbc4</color>
+    <color name="material_deep_teal_500">#ff009688</color>
+    <color name="my_paper_list_item_bg">#fffdecec</color>
+    <color name="my_paper_list_item_line">#ffee4545</color>
+    <color name="none_color">#00000000</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="off_text">#ff5b5b5b</color>
+    <color name="on_text">#ffffffff</color>
+    <color name="pickerview_bg_topbar">#ffffffff</color>
+    <color name="pickerview_timebtn_nor">#ff057dff</color>
+    <color name="pickerview_timebtn_pre">#ffc2daf5</color>
+    <color name="pickerview_topbar_title">#ff000000</color>
+    <color name="pickerview_wheelview_textcolor_center">#ff2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#ffd5d5d5</color>
+    <color name="pickerview_wheelview_textcolor_out">#ffa8a8a8</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="primary_dark_material_dark">#ff000000</color>
+    <color name="primary_dark_material_light">#ff757575</color>
+    <color name="primary_material_dark">#ff212121</color>
+    <color name="primary_material_light">#ffefefef</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="primary_text_disabled_material_dark">#4dffffff</color>
+    <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="pro_bg_bg">#ffe6e6e6</color>
+    <color name="pro_bg_p">#ffee4848</color>
+    <color name="red_bg">#fff1433f</color>
+    <color name="red_color">#ffe20829</color>
+    <color name="result_view">#b0000000</color>
+    <color name="ripple_material_dark">#4dffffff</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="school_image_item_bg">#ff666666</color>
+    <color name="school_image_item_name">#ff333333</color>
+    <color name="school_image_item_prise">#ff999999</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="secondary_text_disabled_material_dark">#36ffffff</color>
+    <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="select_province_line">#ffc7c7c7</color>
+    <color name="shadow_end_color">@android:color/transparent</color>
+    <color name="shadow_mid_color">#14000000</color>
+    <color name="shadow_start_color">#44000000</color>
+    <color name="snackbar_background_color">#ff323232</color>
+    <color name="style_color">#ff005fff</color>
+    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
+    <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="text_0">#ff000000</color>
+    <color name="text_7f">#ff7f7f7f</color>
+    <color name="text_color_6">#ff666666</color>
+    <color name="text_color_f2">#fff2f2f2</color>
+    <color name="text_color_gray">#ff999999</color>
+    <color name="text_color_gray_middle">#ffe3e3e3</color>
+    <color name="text_color_main">#ff666666</color>
+    <color name="text_color_main_content">#ff333333</color>
+    <color name="text_f7">#fff7f7f7</color>
+    <color name="text_ff4f">#ffff4f4f</color>
+    <color name="text_line">#ffe9e9e9</color>
+    <color name="text_red_color">#ffee4545</color>
+    <color name="tips_color">#99000000</color>
+    <color name="title_tx_color">#ff333333</color>
+    <color name="transparant">#00000000</color>
+    <color name="truncent">#50000000</color>
+    <color name="tt_cancle_bg">#fddcdcdc</color>
+    <color name="tt_divider">#ffdcdcdc</color>
+    <color name="tt_header_font">#ff9b9b9b</color>
+    <color name="tt_listview">#fdffffff</color>
+    <color name="tt_listview_press">#fde6e6e6</color>
+    <color name="tt_skip_red">#ffdf112a</color>
+    <color name="tt_text_font">#ff4a4a4a</color>
+    <color name="tt_titlebar_background_dark">#46000000</color>
+    <color name="tt_titlebar_background_light">#ffe0e0e0</color>
+    <color name="tt_transparent">#00000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+    <color name="yellow_bg">#fffff0d0</color>
+    <color name="yellow_margin">#ffffe3a6</color>
+</resources>

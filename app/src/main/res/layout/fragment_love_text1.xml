@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_ffffff"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56.0dip"
+            android:background="@color/_f0f0f0"
+            android:padding="@dimen/rw_spacing_size_8">
+
+            <EditText
+                android:id="@id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="@dimen/rw_spacing_size_14"
+                android:background="@drawable/shape_select"
+                android:hint="请输入关键字搜索聊天话术"
+                android:imeOptions="actionSearch"
+                android:paddingBottom="@dimen/rw_spacing_size_8"
+                android:paddingLeft="@dimen/rw_spacing_size_14"
+                android:paddingTop="@dimen/rw_spacing_size_8"
+                android:singleLine="true"
+                android:textColor="#ff333333"
+                android:textColorHint="#ffb3b3b3"
+                android:textSize="13.0sp" />
+
+            <RelativeLayout
+                android:id="@id/rl_search"
+                android:layout_width="50.0dip"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/rw_spacing_size_14">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/search" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/index_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16.0dip"
+            android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

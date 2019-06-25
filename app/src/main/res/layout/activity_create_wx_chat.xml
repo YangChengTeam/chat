@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!--<include layout="@layout/top_include" />-->
+
+    <yc.com.base.MainToolBar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:main_background="@color/_3d3c3c"/>
+
+    <ImageView
+        android:id="@id/iv_name_me"
+        android:layout_width="@dimen/rw_spacing_size_40"
+        android:layout_height="@dimen/rw_spacing_size_40"
+        android:src="@mipmap/qrcode_logo_7" />
+</LinearLayout>

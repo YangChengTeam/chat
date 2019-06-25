@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_layout" />
+    <EditText android:textSize="@dimen/rw_text_size_17" android:textColor="#ff000000" android:id="@id/qq_edt" android:background="@drawable/weixin_setwhite" android:layout_width="fill_parent" android:layout_height="@dimen/rw_spacing_size_48" android:layout_margin="@dimen/rw_spacing_size_50" android:hint="  请输入QQ" />
+    <Button android:textColor="#ffffffff" android:id="@id/set_reward_btn" android:background="#ff34a1ed" android:layout_width="@dimen/rw_spacing_size_336" android:layout_height="@dimen/rw_spacing_size_48" android:text="提交" />
+    <TextView android:textSize="@dimen/rw_text_size_30" android:textStyle="bold" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rw_spacing_size_80" android:text="刷圈圈说明" />
+    <TextView android:textSize="@dimen/rw_text_size_15" android:textColor="#ff333333" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rw_spacing_size_12" android:layout_marginTop="@dimen/rw_spacing_size_30" android:layout_marginRight="@dimen/rw_spacing_size_12" android:text="1、输入自己的QQ好，点击提交然后等待刷圈圈即可" />
+    <TextView android:textSize="@dimen/rw_text_size_15" android:textColor="#ff333333" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rw_spacing_size_12" android:layout_marginTop="@dimen/rw_spacing_size_10" android:layout_marginRight="@dimen/rw_spacing_size_12" android:text="2、在还没有刷好圈圈99+时，不要关闭软件否则不会刷，软件可挂在后台运行" />
+    <TextView android:textSize="@dimen/rw_text_size_15" android:textColor="#ff333333" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rw_spacing_size_12" android:layout_marginTop="@dimen/rw_spacing_size_10" android:layout_marginRight="@dimen/rw_spacing_size_12" android:text="3、一般1-6分钟开始刷，人越多则要等待的时间越久" />
+</LinearLayout>

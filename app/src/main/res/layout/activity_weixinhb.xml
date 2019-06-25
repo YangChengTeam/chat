@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffa9a9a9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff983e2d"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/status_bar_height">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/rw_spacing_size_12"
+            android:layout_weight="3.0">
+
+            <ImageView
+                android:id="@id/finish_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rw_spacing_size_5"
+                android:background="@mipmap/hb_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rw_spacing_size_16"
+                android:text="发红包"
+                android:textColor="#ffb39f7c"
+                android:textSize="@dimen/rw_text_size_17" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/rw_spacing_size_17"
+            android:layout_weight="1.0"
+            android:gravity="right">
+
+            <ImageView
+                android:id="@id/hb_Img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/hb_quest" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/rw_spacing_size_48"
+        android:layout_margin="@dimen/rw_spacing_size_20"
+        android:background="@drawable/alipay_kuang"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/rw_spacing_size_17"
+            android:layout_weight="1.0"
+            android:text="单个金额"
+            android:textColor="#ff010101"
+            android:textSize="@dimen/rw_spacing_size_16" />
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/rw_spacing_size_17"
+            android:layout_marginRight="@dimen/rw_spacing_size_17"
+            android:layout_weight="1.0"
+            android:gravity="right"
+            android:text="元"
+            android:textColor="#ff010101"
+            android:textSize="@dimen/rw_spacing_size_16" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/rw_spacing_size_20"
+        android:layout_marginRight="@dimen/rw_spacing_size_20"
+        android:layout_marginTop="@dimen/rw_spacing_size_20">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/rw_spacing_size_48"
+            android:background="@drawable/alipay_kuang" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rw_spacing_size_16"
+            android:background="#fffdfdfd"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rw_spacing_size_18"
+                android:layout_marginTop="@dimen/rw_spacing_size_22"
+                android:text="更换支付方式"
+                android:textColor="#ff2bb32b" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_margin="@dimen/rw_spacing_size_12"
+                android:layout_marginTop="@dimen/rw_spacing_size_4"
+                android:background="#ffd7d7d7" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rw_spacing_size_24"
+                android:layout_marginRight="@dimen/rw_spacing_size_24">
+
+                <ImageView
+                    android:id="@id/hb_lq_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@mipmap/hb_lq" />
+
+                <TextView
+                    android:id="@id/shenyu_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/rw_spacing_size_6"
+                    android:layout_toRightOf="@id/hb_lq_img"
+                    android:text="零钱（剩余¥"
+                    android:textColor="#ff000000"
+                    android:textSize="@dimen/rw_text_size_16" />
+
+                <EditText
+                    android:id="@id/jine_edt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/shenyu_tv"
+                    android:background="@null"
+                    android:hint="15"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff000000"
+                    android:textSize="@dimen/rw_text_size_16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/jine_edt"
+                    android:text="）"
+                    android:textColor="#ff000000"
+                    android:textSize="@dimen/rw_text_size_16" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/hb_select" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_margin="@dimen/rw_spacing_size_12"
+                android:background="#ffd7d7d7" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rw_spacing_size_24"
+                android:layout_marginRight="@dimen/rw_spacing_size_24">
+
+                <ImageView
+                    android:id="@id/hb_lq_img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@mipmap/hb_gs" />
+
+                <TextView
+                    android:id="@id/gongshang_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/rw_spacing_size_6"
+                    android:layout_toRightOf="@id/hb_lq_img2"
+                    android:text="工商银行储蓄卡（"
+                    android:textColor="#ff000000"
+                    android:textSize="@dimen/rw_text_size_16" />
+
+                <EditText
+                    android:id="@+id/bank_edt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/gongshang_tv"
+                    android:background="@null"
+                    android:hint="3215"
+                    android:maxLength="4"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff000000"
+                    android:textSize="@dimen/rw_text_size_16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/bank_edt"
+                    android:text="）"
+                    android:textColor="#ff000000"
+                    android:textSize="@dimen/rw_text_size_16" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/hb_select" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_margin="@dimen/rw_spacing_size_12"
+                android:background="#ffd7d7d7" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/rw_spacing_size_20"
+                android:layout_marginLeft="@dimen/rw_spacing_size_20"
+                android:layout_marginRight="@dimen/rw_spacing_size_20"
+                android:layout_marginTop="@dimen/rw_spacing_size_8"
+                android:text="添加新卡支付"
+                android:textColor="#ff000000"
+                android:textSize="@dimen/rw_spacing_size_15" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/rw_spacing_size_16"
+            android:gravity="center"
+            android:text="未领取的红包，将于24小时后发起退款"
+            android:textColor="#ff737373" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@id/iv_show_pic"
+        android:layout_width="96.0dip"
+        android:layout_height="96.0dip"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@id/tv_show_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/rw_spacing_size_16"
+        android:layout_marginLeft="@dimen/rw_spacing_size_16"
+        android:layout_marginTop="@dimen/rw_spacing_size_8"
+        android:text="宠物"
+        android:textColor="@color/_727272" />
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="45.0dip"-->
+            <!--android:background="@color/_3d3c3c">-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@id/rl_back"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="fill_parent">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerInParent="true"-->
+                    <!--android:layout_marginLeft="@dimen/rw_spacing_size_16"-->
+                    <!--android:layout_marginRight="@dimen/rw_spacing_size_15"-->
+                    <!--android:background="@mipmap/back" />-->
+            <!--</RelativeLayout>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="@dimen/rw_spacing_size_13"-->
+                <!--android:layout_toRightOf="@id/rl_back"-->
+                <!--android:text="交易详情"-->
+                <!--android:textColor="@color/_ffffff"-->
+                <!--android:textSize="17.0sp" />-->
+        <!--</RelativeLayout>-->
+        <yc.com.base.MainToolBar
+            android:id="@+id/mainToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:main_background="@color/_3d3c3c"/>
+
+        <ImageView
+            android:id="@id/iv_is_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/rw_spacing_size_42"
+            android:background="@mipmap/wechat_transfer_success" />
+
+        <TextView
+            android:id="@id/tv_is_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/rw_spacing_size_24"
+            android:text="已收钱"
+            android:textColor="@color/_090909"
+            android:textSize="@dimen/rw_text_size_19" />
+
+        <TextView
+            android:id="@id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/rw_spacing_size_16"
+            android:text="¥555.00"
+            android:textColor="@color/_181818"
+            android:textSize="@dimen/rw_text_size_40" />
+
+        <TextView
+            android:id="@id/tv_true_pay"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_marginLeft="@dimen/rw_spacing_size_14"
+            android:layout_marginRight="@dimen/rw_spacing_size_14"
+            android:layout_marginTop="@dimen/rw_spacing_size_26"
+            android:background="@drawable/shape_btn_wx_cz"
+            android:gravity="center"
+            android:text="确认收款"
+            android:textColor="@color/_ffffff"
+            android:textSize="@dimen/rw_text_size_17"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/rw_spacing_size_14"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/tv_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1天内未确认，将退还给对方。"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@id/tv_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="查看零钱"
+                android:textColor="@color/_486aac"
+                android:textSize="@dimen/rw_text_size_14" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/tv_pay_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/rw_spacing_size_14"
+        android:text="收钱时间"
+        android:textColor="@color/_878787"
+        android:textSize="@dimen/rw_text_size_13" />
+
+    <TextView
+        android:id="@id/tv_money_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_pay_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/rw_spacing_size_9"
+        android:text="转账时间"
+        android:textColor="@color/_878787"
+        android:textSize="@dimen/rw_text_size_13" />
+</RelativeLayout>

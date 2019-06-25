@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rl_main"
+    android:layout_width="fill_parent"
+    android:layout_height="40.0dip"
+    android:background="@color/main_color">
+
+    <RelativeLayout
+        android:id="@id/rl_back"
+        android:layout_width="60.0dip"
+        android:layout_height="fill_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/back" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/tv_top_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="恋爱话术库"
+        android:textColor="@color/_ffffff"
+        android:textSize="@dimen/rw_text_size_16" />
+
+    <RelativeLayout
+        android:id="@id/rl_history"
+        android:layout_width="60.0dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/rw_spacing_size_10"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="历史订单"
+            android:textColor="@color/_ffffff" />
+    </RelativeLayout>
+</RelativeLayout>

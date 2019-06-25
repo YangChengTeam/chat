@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/all_head"
+        android:visibility="gone" />
+
+    <yc.com.base.MainToolBar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isShowCenter="true"
+        app:main_background="@color/main_color" />
+
+    <LinearLayout
+        android:id="@+id/ll_type"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="5.0dip"
+            android:layout_height="15.0dip"
+            android:layout_centerVertical="true"
+            android:layout_margin="10.0dip"
+            android:background="@drawable/rectangle_small" />
+
+        <TextView
+            android:id="@id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分类"
+            android:textColor="@color/_010101" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@id/list_recyclerView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,148 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+//apply plugin: 'io.objectbox' // apply last
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "yc.com.chat"
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        flavorDimensions 'default'//这句不能少
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "umeng"]
+
+        ndk {
+            //设置支持的SO库架构
+            abiFilters 'armeabi-v7a', 'armeabi', 'x86'//, 'x86_64', 'arm64-v8a','arm64-v8a',
+        }
+
+        renderscriptTargetApi 17
+        renderscriptSupportModeEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+        exclude 'project.properties'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/DEPENDENCIES'
+    }
+    signingConfigs {
+        debug {
+            storeFile file('chat.jks')
+            storePassword "123456"
+            keyAlias "chat"
+            keyPassword "123456"
+        }
+    }
+
+    //多渠道打包支持
+    productFlavors {
+        app_online {//默认的
+        }
+        Tencent {//投放应用宝市场
+            //     manifestPlaceholders = [UMENG_CHANNEL_VALUE: Tencent]
+        }
+        Baidu {//投放百度市场
+        }
+        Wandoujia {//投放豌豆荚市场
+        }
+        Zhushou {//投放91助手
+        }
+        Qihoo {//投放360助手市场
+        }
+        Vivo {//投放vivo市场
+        }
+        Oppo {//投放oppo市场
+        }
+        Xiaomi {//投放小米市场
+        }
+        Meizu {//投放魅族市场
+        }
+        Huawei {//投放华为应用市场
+        }
+        Lenovo {//投放联想市场
+        }
+        Gionee {//投放金立市场
+        }
+        Anzhi {//安智应用市场
+        }
+
+    }
+    //注意我注释掉的，可以去掉注释，那样的话，下面这句就可以不用了
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+}
+
+
+kapt {
+    generateStubs = true
+    arguments {
+        arg("moduleName", project.getName())
+    }
+}
+
+greendao {
+    schemaVersion 2
+    daoPackage 'yc.com.chat.base.dao'
+    targetGenDir 'src/main/java'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    api project(':base')
+    compile 'com.android.support:multidex:1.0.2'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    //    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
+    implementation project(':share')
+    //    implementation files('libs/glide-3.6.0.jar')
+    compile 'com.jakewharton.rxbinding:rxbinding:+'
+    compile 'com.jakewharton.rxbinding:rxbinding-appcompat-v7:+'
+    compile 'com.jakewharton.rxbinding:rxbinding-design:+'
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+    compile 'com.tencent.bugly:crashreport_upgrade:latest.release'
+    //其中latest.release指代最新版本号，也可以指定明确的版本号，例如1.2.0
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
+    //其中latest.release指代最新版本号，也可以指定明确的版本号，例如2.2.0
+    implementation "org.greenrobot:greendao:$greendao_version"
+    //最新版本
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-18'
+    api 'com.wl.tencent-adv:tencent-adv:7.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.google.android:flexbox:1.0.0'
+    implementation project(':tools')
+}
+repositories {
+    mavenCentral()
+}

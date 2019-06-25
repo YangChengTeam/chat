@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="11.0">
+
+    <yc.com.chat.constellation.datapicker.WheelView
+        android:id="@id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.0" />
+
+    <yc.com.chat.constellation.datapicker.WheelView
+        android:id="@id/month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0" />
+
+    <yc.com.chat.constellation.datapicker.WheelView
+        android:id="@id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0" />
+
+    <TextView
+        android:id="@id/week"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="星期二" />
+
+    <yc.com.chat.constellation.datapicker.WheelView
+        android:id="@id/hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0" />
+
+    <yc.com.chat.constellation.datapicker.WheelView
+        android:id="@id/minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0" />
+</LinearLayout>

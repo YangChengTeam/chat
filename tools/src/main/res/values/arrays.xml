@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="english_stage_words">
+        <item>小学</item>
+        <item>初中</item>
+        <item>高中</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="english_word_num">
+        <item>0-60</item>
+        <item>61-100</item>
+        <item>101-150</item>
+        <item>151-200</item>
+        <item>200以上</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="genre">
+        <item>话题作文</item>
+        <item>小说</item>
+        <item>日记</item>
+        <item>读后感</item>
+        <item>演讲稿</item>
+        <item>散文诗歌</item>
+        <item>议论文</item>
+        <item>写景作文</item>
+        <item>状物作文</item>
+        <item>叙事作文</item>
+        <item>写人作文</item>
+        <item>想象作文</item>
+        <item>书信</item>
+        <item>续写改写</item>
+        <item>说明文</item>
+        <item>申请书</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="grade">
+        <item>一年级</item>
+        <item>二年级</item>
+        <item>三年级</item>
+        <item>四年级</item>
+        <item>五年级</item>
+        <item>六年级</item>
+        <item>七年级</item>
+        <item>八年级</item>
+        <item>九年级</item>
+        <item>高一</item>
+        <item>高二</item>
+        <item>高三</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="number_of_words">
+        <item>200以下</item>
+        <item>200-400</item>
+        <item>401-800</item>
+        <item>801-1000</item>
+        <item>1000以上</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="writting_matter">
+        <item>好词好句</item>
+        <item>优美段落</item>
+        <item>名言警句</item>
+        <item>名人故事</item>
+        <item>小学考场素材</item>
+        <item>初中考场素材</item>
+        <item>高中考场素材</item>
+        <item>实事论据</item>
+        <item>历史故事</item>
+    </string-array>
+</resources>
